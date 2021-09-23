@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Spring MVC Demo</title>
+</head>
+
+<body>
+	
+	<form th:action="@{/dashboard}" method="post">
+		<div>
+			<label>EmployeeId :: <input type="text" name="employeeId" />
+			</label>
+		</div>
+		<div>
+			<label>Employee Name :: <input type="text" name="name" />
+			</label>
+		</div>
+		<div>
+			<input type="submit" value="Find Employee" />
+		</div>
+	</form>
+</body>
+
+</html>
